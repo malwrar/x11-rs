@@ -15,6 +15,7 @@ fn main () {
     ("x11-xcb", "1.6", "xlib_xcb"),
     ("xcomposite", "0.4.5", "xcomposite"),
     ("xcursor", "1.1", "xcursor"),
+    ("xdamage", "1.1.0", "xdamage"),
     ("xext", "1.3", "dpms"),
     ("xft", "2.1", "xft"),
     ("xi", "1.7", "xinput"),
