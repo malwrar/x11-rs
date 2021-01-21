@@ -46,7 +46,7 @@ pub type Damage = XID;
 #[repr(C)]
 struct XDamageNotifyEvent {
   _type: c_int,
-  long serial: c_ulong,
+  serial: c_ulong,
   send_event: Bool,
   display: *mut Display,
   drawable: Drawable,
@@ -56,4 +56,4 @@ struct XDamageNotifyEvent {
   timestamp: Time,
   area: XRectangle,
   geometry: XRectange,
-};
+}
